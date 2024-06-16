@@ -6,7 +6,8 @@ use Livewire\Attributes\Validate;
 use Livewire\Component;
 use App\Models\User;
 use Illuminate\Support\Facades\Hash;
-
+use App\Models\Company;
+use Illuminate\Support\Str;
 class RegisterCompany extends Component
 {
     #[Validate('required')]
@@ -30,7 +31,15 @@ class RegisterCompany extends Component
             'password' => Hash::make($this->password),
         ]);
 
-        dd($user);
+        Company::create([
+            'name' => $this->name,
+            'user_id' => $user->id,
+            'email' => $this->email,
+            'slug' => Str::slug($this->name),
+            'phone' => $this->phone,
+            'tax_code' => $this->tax_code
+        ]);
+
     }
 
 

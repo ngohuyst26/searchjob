@@ -41,10 +41,9 @@
                                             <h5 class="mb-1 text-gray-800 dark:text-gray-50">CHỌN LOẠI TÀI KHOẢN MUỐN ĐĂNG KÝ</h5>
                                         </div>
                                         <div class="grid grid-cols-2 gap-4">
-                                            <div class="h-full">
-                                                <div class="max-w-sm h-full  p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <div class="max-w-lg h-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                                                     <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Đăng ký ứng viên</h5>
-                                                    <ul>
+                                                    <ul class="min-h-40">
                                                         <li>
                                                             <i class="uil uil-check-circle"></i> + 1.500.000 công việc được cập nhật thường xuyên
                                                         </li>
@@ -61,13 +60,10 @@
                                                     <div class="text-center ">
                                                         <a wire:navigate href="{{route('register.candidate')}}" class=" w-full mt-4  text-white border-transparent btn group-data-[theme-color=violet]:bg-violet-500 group-data-[theme-color=sky]:bg-sky-500 group-data-[theme-color=red]:bg-red-500 group-data-[theme-color=green]:bg-green-500 group-data-[theme-color=pink]:bg-pink-500 group-data-[theme-color=blue]:bg-blue-500">Đăng ký ứng viên</a>
                                                     </div>
-                                                </div>
-
                                             </div>
-                                            <div class="h-full">
-                                                <div class="  max-w-sm h-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                                                <div class="max-w-lg h-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                                                     <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Đăng ký nhà tuyển dụng</h5>
-                                                    <ul class="min-h-80">
+                                                    <ul class="min-h-40">
                                                         <li>
                                                             <i class="uil uil-check-circle"></i> + 3.000.000 ứng viên tiếp cận thông tin tuyển dụng
                                                         </li>
@@ -84,8 +80,6 @@
                                                     <div class="text-center ">
                                                         <a wire:navigate href="{{route('register.company')}}" class="w-full mt-4 text-white border-transparent btn group-data-[theme-color=violet]:bg-violet-500 group-data-[theme-color=sky]:bg-sky-500 group-data-[theme-color=red]:bg-red-500 group-data-[theme-color=green]:bg-green-500 group-data-[theme-color=pink]:bg-pink-500 group-data-[theme-color=blue]:bg-blue-500">Đăng ký nhà tuyển dụng</a>
                                                     </div>
-                                                </div>
-
                                             </div>
                                         </div>
                                     </div>

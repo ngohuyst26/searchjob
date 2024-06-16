@@ -138,10 +138,10 @@
                     <div class="navbar-res items-center justify-between w-full text-sm lg:flex lg:w-auto lg:order-1 group-focus:[.navbar-toggler]:block hidden">
                         <ul class="flex flex-col items-start mt-5 mb-10 font-medium lg:mt-0 lg:mb-0 lg:items-center lg:flex-row" >
                             <li class="py-5 lg:px-2">
-                                <a href="" class="bg-red-600 py-2 px-2 text-white font-medium leading-tight dark:text-white" id="price" data-bs-toggle="dropdown">ĐĂNG NHẬP</a>
+                                <a href="" class="bg-red-600 py-2 px-2 text-white font-medium leading-tight dark:text-white" id="price" data-bs-toggle="dropdown"> ĐĂNG NHẬP <i class="uil uil-sign-in-alt"></i></a>
                             </li>
                             <li class="py-5 lg:px-2">
-                                <a href="/" class="bg-yellow-500 py-2 px-2 text-white font-medium leading-tight dark:text-white" id="contact" data-bs-toggle="dropdown">+ĐĂNG KÝ</a>
+                                <a href="/" class="bg-yellow-500 py-2 px-2 text-white font-medium leading-tight dark:text-white" id="contact" data-bs-toggle="dropdown"> ĐĂNG KÝ <i class="uil uil-plus-circle"></i> </a>
                             </li>
                         </ul>
                     </div>
